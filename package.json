@@ -1,0 +1,24 @@
+{
+  "name": "us-random-uuid",
+  "version": "1.0.0",
+  "description": "Application which generate random UUID for testing purpose",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/archmess/us-random-uuid.git"
+  },
+  "author": "Joscelyn Jean",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/archmess/us-random-uuid/issues"
+  },
+  "homepage": "https://github.com/archmess/us-random-uuid#readme",
+  "dependencies": {
+    "express": "^4.14.1",
+    "node-uuid": "^1.4.7"
+  }
+}
